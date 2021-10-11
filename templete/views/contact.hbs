@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+</head>
+
+<body>
+    {{>nav}}
+    {{>prenav}}
+    <section>
+        <div class="container1">
+            <div class="contact">
+                <div class="contact1 decor">
+                    <div class="card1">
+                        <div><i class="fas fa-phone-square-alt"></i>Phone</div>
+                        <div>704949489</div>
+
+                    </div>
+                    <div class="card1">
+                        <div><i class="fas fa-envelope-open-text"></i>Email Us</div>
+                        <div>rahul@gmail.com</div>
+                    </div>
+                    <div class="card1">
+                        <div><i class="fas fa-tty"></i>telephone</div>
+                        <div>1800 2003 4444</div>
+                    </div>
+                </div>
+                <div class="contact1">
+                    <h1>Message Us</h1>
+                        <div class="form">
+                            <form action="/contact" method="POST">
+                            <input type="text" name="firstname" placeholder="enter your name">
+                            <input type="email" name="email" placeholder="enter your email">
+                            <textarea name="message" placeholder="Write your message here" id="" cols="30"
+                                rows="10"></textarea>
+                            <input type="submit" value="Register">
+                            </form>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{>footer}}
+</body>
+
+</html>
